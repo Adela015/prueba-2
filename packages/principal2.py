@@ -1,0 +1,12 @@
+from matematicas.calculo_areas import calcular_area_circulo, calcular_area_rectangulo
+from matematicas.operaciones import sumar, restar
+
+def main():
+    area_circulo = calcular_area_circulo(5)
+    area_rectangulo = calcular_area_rectangulo(4, 6)
+    print(f"Área del círculo: {area_circulo}")
+    print(f"Área del rectángulo: {area_rectangulo}")
+    sumar(10, 5)
+    restar(10, 5)
+    
+main()

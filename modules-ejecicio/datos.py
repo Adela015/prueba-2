@@ -1,4 +1,8 @@
-import base_datos as db
+## from datos import base_datos
+
+## print(base_datos)
+
+from base import base_datos as db
 
 clientes = db.base_datos["clientes"]
 empleados = db.base_datos["empleados"]
